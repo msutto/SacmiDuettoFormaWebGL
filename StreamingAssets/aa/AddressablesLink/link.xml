@@ -19,32 +19,94 @@
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+  </assembly>
+  <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cinemachine.CinemachineCollider" preserve="all" />
+    <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
+    <type fullname="Cinemachine.CinemachineFramingTransposer" preserve="all" />
+    <type fullname="Cinemachine.PostFX.CinemachineVolumeSettings" preserve="all" />
+    <type fullname="Cinemachine.CinemachineStoryboard" preserve="all" />
+    <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
+    <type fullname="Cinemachine.CinemachinePOV" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Industrial.Configurator, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Industrial.Configuring.Providers.ProductRuntimeUIData" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.ModelSet" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.MeshHotspotView" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.StaticListMaterialSlotQueryNode" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.HotspotTriggerQuery" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Product" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.ScaleRelativeToCamera" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Pack" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Staging.CameraItemCommandSettings" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.HotspotDisplay" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Context" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.ProductSettings" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Staging.ActivateVirtualCameraCommand" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.Hotspot" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.Rules" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.CameraFacingBillboard" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.HotspotAnnotation" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.HotspotAnchor" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Staging.CameraFollowObject" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.StaticBoolQueryNode" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.VariantSet" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.StaticMaterialQueryNode" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Configuration" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.CanvasHotspotView" preserve="all" />
+    <type fullname="CinemachineExtension" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.EmptyHotspotView" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.PackSet" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.VariantTable" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Providers.ProductLocalPrice" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.GameObjectVisibilityAssignment" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.MeshClickHandler" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Hotspots.HotspotViewContainer" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.MaterialAssignment" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.ContextCollection" preserve="all" />
+    <type fullname="CinemachineController" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.ProductDefinition" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.StaticListGameObjectQueryNode" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.QueryResults" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Variant" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Staging.CameraItem" preserve="all" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.CombinedAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.CombinedCondition" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.CommonRule" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.SelectFeatureAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.SelectedFeatureCondition" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
   </assembly>
   <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEditor.MonoScript" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+    <type fullname="UnityEngine.Canvas" preserve="all" />
   </assembly>
 </linker>
