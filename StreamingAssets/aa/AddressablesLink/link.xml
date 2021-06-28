@@ -24,10 +24,6 @@
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
   </assembly>
-  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.AnimationClip" preserve="all" />
-    <type fullname="UnityEngine.Animator" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
@@ -36,31 +32,14 @@
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
   </assembly>
-  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.HighDefinition.DepthOfField" preserve="all" />
-    <type fullname="UnityEngine.Rendering.HighDefinition.ColorAdjustments" preserve="all" />
-    <type fullname="UnityEngine.Rendering.HighDefinition.Exposure" preserve="all" />
-  </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineCollider" preserve="all" />
     <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
-    <type fullname="CinemachineTrack" preserve="all" />
     <type fullname="Cinemachine.CinemachineFramingTransposer" preserve="all" />
-    <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
     <type fullname="Cinemachine.PostFX.CinemachineVolumeSettings" preserve="all" />
     <type fullname="Cinemachine.CinemachineStoryboard" preserve="all" />
     <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
-    <type fullname="Cinemachine.CinemachineSmoothPath" preserve="all" />
     <type fullname="Cinemachine.CinemachinePOV" preserve="all" />
-    <type fullname="CinemachineShot" preserve="all" />
-    <type fullname="Cinemachine.CinemachineTrackedDolly" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Industrial.Configurator, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Industrial.Configuring.Providers.ProductRuntimeUIData" preserve="all" />
@@ -75,7 +54,6 @@
     <type fullname="UnityEngine.Industrial.Configuring.Hotspots.HotspotDisplay" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Context" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.ProductSettings" preserve="all" />
-    <type fullname="UnityEngine.Industrial.Configuring.Staging.ActivateGameObjectCommand" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Staging.ActivateVirtualCameraCommand" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Hotspots.Hotspot" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.Rules" preserve="all" />
@@ -103,7 +81,6 @@
     <type fullname="UnityEngine.Industrial.Configuring.Core.StaticListGameObjectQueryNode" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.QueryResults" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Variant" preserve="all" />
-    <type fullname="UnityEngine.Industrial.Configuring.Staging.PlayTimelineCommand" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Staging.CameraItem" preserve="all" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.CombinedAction" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.CombinedCondition" preserve="nothing" serialized="true" />
@@ -111,19 +88,13 @@
     <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.SelectFeatureAction" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Industrial.Configuring.Core.Ruling.SelectedFeatureCondition" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
-    <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
-    <type fullname="UnityEngine.Timeline.GroupTrack" preserve="all" />
-    <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
-    <type fullname="UnityEngine.Timeline.MarkerTrack" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
-  </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
   </assembly>
   <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEditor.MonoScript" preserve="all" />
@@ -137,8 +108,5 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
     <type fullname="UnityEngine.Canvas" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
   </assembly>
 </linker>
